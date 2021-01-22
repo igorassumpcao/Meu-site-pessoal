@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>pagina de produtos</title>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <% products.forEach(function(product) { %>
-      Nome: <%= product.name %>
-      <br />
-      Tipo: <%= product.type %>
-    <% }) %>
+    <h1>Produtos</h1>
+<a href="/about">Acessar Sobre</a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/512px-Circle-icons-profile.svg.png
+    " 
+      height="200px"
+      width="200px"
+      alt="Magalu em frente a loja da magazine luiza">
+    
+    <p>Meu nome é:
+    <strong>Igor</strong>
+    <br />
+    Idade: <strong>35 anos</strong>
+    <br>
+    Estado civil: <strong>Solteiro</strong>
+   </p>
+   <h3>Qualidades</h3>
+   <ul>
+     <li>Jogo bem videogame</li>
+     <li>Sou um programador</li>
+     <ol><li>Sei cozinhar</li>
+    <li>Sei jogar bola</li></ol>
+   </ul>
   </body>
 </html>
